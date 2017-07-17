@@ -1,0 +1,4 @@
+#border{width:60%; margin:auto; border: 20px solid #bdc3c7; padding:2%;}
+.date{text-transform: uppercase; letter-spacing:3px; font-style: Source Sans Pro; colour:blue;}
+div p:nth-of-type(2){border-left: 5px; margin-left:1px; border-color solid #bdcec7; font-style: Source Sans Pro; }
+h1{color: #2c3e50; font-weight:700;}

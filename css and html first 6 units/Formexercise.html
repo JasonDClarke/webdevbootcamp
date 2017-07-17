@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form!</title>
+</head>
+<body>
+<h1>Register</h1>
+<form>
+<div>
+<label for="firstname">First Name:</label>
+<input id="firstname" name="firstname" type="text" required placeholder="First Name">
+<label for="lastname">Last Name:</label>
+<input id="lastname" name="lastname" type="text" required placeholder="Last Name">
+</div>
+
+<div>
+<label for="male">Male:</label>
+<input name="gender" value="male" id="male" type ="radio" required>
+<label for="female">Female:</label>
+<input name="gender" value="female" id="female" type ="radio" required>
+<label for="other">Other:</label>
+<input name="gender" value="other" id="other" type ="radio" required>
+</div>
+
+<div>
+<label for="email">Email:</label>
+<input name ="email" id="email" type ="email" required placeholder="Email">
+<label for="password">Password:</label>
+<input name="password" id="password" type="text" required placeholder="Password" maxlength="10" minlength="5">
+</div>
+
+<div>
+<label for="birthday">Birthday:</label>
+<select id="birthday" name="month" title="Month">
+	<option selected disabled>Month</option>
+	<option>Jan</option>
+	<option>Not Jan</option>
+</select>
+<select id="birthday" name="day" title="day">
+	<option>1</option>
+	<option>Not 1</option>
+</select>
+<select id="birthday" name="year" title="year">
+	<option>1994</option>
+	<option>Not 1994</option>
+</select>
+</div>
+
+<div>
+<label for="terms">I agree to the terms and conditions:</label>
+<input name="terms" id="terms" required type="checkbox">
+</div>
+<input id="submit" type="submit">
+</form>
+</body>
+</html>

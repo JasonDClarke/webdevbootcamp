@@ -1,0 +1,13 @@
+h4{color: #FB2AD1;
+/*border-color:red;
+border-width:5px;
+border-style: solid;*/
+border: red 5px solid;
+}
+h1{color: rgb(100,100,100);}
+li{color: rgba(100,100,100,0.2);}
+/*a is transparency*/
+body{background:url{"website"};
+background-repeat: no-repeat;
+background-size: cover;
+}
